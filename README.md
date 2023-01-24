@@ -1,6 +1,6 @@
 # ClearScore - Backend Technical Test
 
-To get an idea of your technical experience, we’d like you to develop a simple microservice that collates financial products from a small selection of partners. You can use Scala, Java or Kotlin, along with any tools, frameworks and libraries you feel are appropriate.
+To get an idea of your technical experience, we’d like you to develop a simple microservice that collates financial products from a small selection of partners. We'd like you to use C# and .NET along with any frameworks and libraries you feel are appropriate.
 
 We'll be looking for the following when reviewing:
 
@@ -12,7 +12,7 @@ We'll be looking for the following when reviewing:
 Once completed please include the following in a single ZIP file:
 
 - all code, including tests
-- a bash script start.sh that will start up your service locally, it should support the following environment variables:
+- a visual studio project which should support the following environment variables:
     - `HTTP_PORT`: The port to expose your service on
     - `CSCARDS_ENDPOINT`: The url for CSCards
     - `SCOREDCARDS_ENDPOINT`: The url for ScoredCards
